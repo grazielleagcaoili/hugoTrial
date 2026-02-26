@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <section class="hero">
+    <div class="container hero-inner">
+
+      <div class="hero-left">
+        <p class="hero-small">{{ .Params.heroSmall }}</p>
+
+        <h1 class="hero-title">
+          <span class="hero-title-big">{{ .Params.heroBig1 }}</span>
+          <span class="hero-title-big">{{ .Params.heroBig2 }}</span>
+          <span class="hero-title-accent">{{ .Params.heroAccent }}</span>
+        </h1>
+
+        <a class="btn" href="{{ .Params.btnLink }}">{{ .Params.btnText }}</a>
+      </div>
+
+      <div class="hero-right">
+        <div class="circle-wrapper">
+          <div class="hero-circle"></div>
+          <div class="discount-badge" aria-label="30 percent discount for all online orders">
+            <div class="discount-big">30% DISCOUNT</div>
+            <div class="discount-small">FOR ALL ONLINE ORDERS!</div>
+            <span class="discount-tail" aria-hidden="true"></span>
+          </div>
+          <img class="hero-img" src="{{ .Params.heroImage }}" alt="New arrivals luggage">
+        </div>
+      </div>
+
+    </div>
+  </section>
+{{ end }}

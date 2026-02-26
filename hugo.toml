@@ -1,0 +1,18 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Name Here"
+
+
+[menus]
+  [[menus.main]]
+    name = "ABOUT"
+    url = "/about/"
+    weight = 1
+  [[menus.main]]
+    name = "PRODUCTS"
+    url = "/products/"
+    weight = 2
+  [[menus.main]]
+    name = "CONTACT"
+    url = "/contact/"
+    weight = 3
