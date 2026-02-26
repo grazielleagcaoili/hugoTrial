@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="page">
+  <div class="container product-page">
+    <a class="back-link" href="/products/">← Back to Products</a>
+
+    <div class="product-layout">
+      <img class="product-page-img" src="{{ .Params.image }}" alt="{{ .Title }}">
+
+      <div class="product-page-info">
+        <h1 class="page-title">{{ .Title }}</h1>
+        <p class="product-price big">{{ .Params.price }}</p>
+        <p class="product-desc">{{ .Params.description }}</p>
+
+        <a class="btn" href="#">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
