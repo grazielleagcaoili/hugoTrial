@@ -71,13 +71,13 @@ body{
 
 /* LEFT SIDE TEXT */
 .hero-left{
-  max-width: 460px;
+  max-width: 540px;
   text-align: center !important;
 }
 
 .hero-small{
   font-weight: 800;
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 4px;
   margin-bottom: 14px;
 }
@@ -85,13 +85,13 @@ body{
 /* JUST / FOR */
 .hero-title{
   line-height: .88;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
 }
 
 .hero-title-big{
   display:block;
   font-weight: 900;
-  font-size: clamp(88px, 7.2vw, 126px);
+  font-size: clamp(110px, 9vw, 150px);
 }
 
 /* you */
@@ -101,21 +101,21 @@ body{
   color: var(--accent);
   font-family: "Yellowtail", cursive;
   font-weight: 400;
-  font-size: clamp(64px, 5.6vw, 92px);
+  font-size: clamp(80px, 7vw, 110px);
 }
 
 /* Button */
 .btn{
   display:inline-block;
   margin-top: 8px;
-  padding: 10px 26px;
+  padding: 16px 40px;
   background: var(--button);
   color:#fff;
   text-decoration:none;
-  border-radius: 12px;
-  font-weight: 800;
-  font-size: 14px;
-  letter-spacing: .8px;
+  border-radius: 16px;
+  font-weight: 900;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 /* =========================
